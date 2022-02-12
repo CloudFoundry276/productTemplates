@@ -2,6 +2,10 @@ from django.shortcuts import render
 
 
 # Create your views here.
+def index(request):
+    return render(request, "productApp/index.html")
+
+
 def electronics(request):
     product_dict = {
         "product1": "Laptops",
