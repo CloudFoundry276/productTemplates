@@ -1,3 +1,29 @@
 from django.shortcuts import render
 
+
 # Create your views here.
+def electronics(request):
+    product_dict = {
+        "product1": "Laptops",
+        "product2": "Mobiles",
+        "product3": "Cameras"
+    }
+    return render(request, "productApp/products.html", product_dict)
+
+
+def toys(request):
+    product_dict = {
+        "product1": "Teddy Bear",
+        "product2": "Remote Car",
+        "product3": "Pistol Gun"
+    }
+    return render(request, "productApp/products.html", product_dict)
+
+
+def shoes(request):
+    product_dict = {
+        "product1": "Sparx",
+        "product2": "Woodland",
+        "product3": "Adidas"
+    }
+    return render(request, "productApp/products.html", product_dict)
