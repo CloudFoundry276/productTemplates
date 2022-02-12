@@ -8,6 +8,7 @@ def index(request):
 
 def electronics(request):
     product_dict = {
+        "heading": "Electronics Products",
         "product1": "Laptops",
         "product2": "Mobiles",
         "product3": "Cameras"
@@ -17,6 +18,7 @@ def electronics(request):
 
 def toys(request):
     product_dict = {
+        "heading": "Toys Products",
         "product1": "Teddy Bear",
         "product2": "Remote Car",
         "product3": "Pistol Gun"
@@ -26,6 +28,7 @@ def toys(request):
 
 def shoes(request):
     product_dict = {
+        "heading": "Shoes Products",
         "product1": "Sparx",
         "product2": "Woodland",
         "product3": "Adidas"

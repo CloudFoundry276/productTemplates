@@ -1,2 +1,5 @@
 # ignore all db files
 *.sqlite3
+
+# ignore all images
+static/images/

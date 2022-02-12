@@ -4,23 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Shopping Portal</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
     <h1>Welcome to our Online Shopping Portal</h1>
     <ul>
         <li>
             <a href="/electronics">
-                <img src="{% static 'images/electronics.jpg' %}" />
+                <img src="{% static 'images/icon-electronics.jpeg' %}" />
+                <p>ELECTRONICS</p>
             </a>
         </li>
         <li>
             <a href="/toys">
-                <img src="{% static 'images/toys.jpg' %}" />
+                <img src="{% static 'images/icon-toys.jpeg' %}" />
+                <p>TOYS</p>
             </a>
         </li>
         <li>
             <a href="/shoes">
-                <img src="{% static 'images/shoes.jpg' %}" />
+                <img src="{% static 'images/icon-shoes.png' %}" />
+                <p>SHOES</p>
             </a>
         </li>
     </ul>
